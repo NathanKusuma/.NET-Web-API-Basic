@@ -10,7 +10,7 @@ namespace Test.Models
         public int Id { get; set; }
         public DateTime TransactionDate { get; set; }
         public int UserId { get; set; }
-        public int DetailId { get; set; }
+        public List<int> DetailId { get; set; }
     }
 
 }
